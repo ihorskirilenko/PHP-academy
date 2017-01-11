@@ -1,0 +1,58 @@
+body {
+	text-align: center;
+	background-image: url(/PHP-academy/images/background.jpg);
+	font: 100% Open Sans;
+}
+
+form {
+	width: 300px;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.top-div {
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 200px;
+}
+
+a {
+	color: black;
+}
+
+h3 {
+	font: 150% Segoe print;
+	clear: both;
+}
+
+div.main_menu {
+	margin: 0 auto;
+	max-width: 532px;
+}
+
+div.main_menu div, .home-btn {
+	float:left;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-bottom: 2.5%;
+	width: 120px;
+	border: 1px solid;
+	border-color: #C0C0C0;
+	background-color: #C0C0C0;
+	/* width: 21%; */
+	padding: 3px;
+	text-align: center;
+}
+
+#fixed {
+	position: fixed;
+}
+
+div.main_menu div:hover, .home-btn:hover {
+	background: #90EE90;
+	border-color: #90EE90;
+}
+	
+hr {
+	clear:both;
+}

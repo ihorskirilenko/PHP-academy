@@ -1,0 +1,59 @@
+body {
+	text-align: justify;
+}
+h1 {
+	font: 150%;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+}
+h2 {
+	font: 120% Open Sans;
+	font-weight: bold;
+	margin: 0px;
+}
+b, a {
+	font: 100% Open Sans;
+	font-weight: bold;
+	margin: 1px;
+}
+ul {
+	margin: 1px auto;
+}
+label, input {
+	font: 80%;
+	margin: 0 auto;
+}
+#par_header1 {
+	font-weight: bold;
+	margin: 8px auto;
+}
+#par_header2 {
+	width: 155px;
+}
+#par_header3 {
+	width: 230px;
+}
+#par_header4 {
+	width: 415px;
+}
+#par_sheet {
+    width: 900px;
+	margin: 0 auto;
+    padding: 10px;
+    border: 1.5px solid gray;
+	background: white;
+}
+.par_cell1 {
+	width: 200px;
+	vertical-align: top;
+}
+.par_cell2 {
+	width: 100px;
+}
+.par_table {
+	font: 100% Open Sans;
+	border: 1.5px dotted;
+	margin: 8px auto;
+	width: 800px;
+}
