@@ -44,6 +44,10 @@ div.main_menu div, .home-btn {
 	text-align: center;
 }
 
+.hw-btn {
+	height: 65px;
+}
+
 #fixed {
 	position: fixed;
 }

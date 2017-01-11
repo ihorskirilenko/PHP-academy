@@ -7,19 +7,16 @@ echo "<b> Пункты 1-3 </b>";
 echo "<br> <b> Пункты 4-8 </b>";
 	echo '<br>';
 	if ($age >= 18 and $age <60) {
-		echo "<br> Вам еще работать и работать";
+		echo "Вам еще работать и работать";
 	}
 	elseif ($age > 59) {
 		echo "Вам пора на пенсию";
 	}
-	elseif ($age >= 0 and $age <= 17) {
+	elseif ($age > 0 and $age <= 17 or $age === 0) {
 		echo "Вам еще рано работать";
 	}
-	elseif ($age < 0) {
+	elseif ($age < 0 or $age !== 0) {
 		echo "Неизвестный возраст";
-	}
-	else {
-		echo "Ну, можно отдохнуть";
 	}
 echo "<br> <b> Пункты 9-12 </b>";
 	echo '<br>';
