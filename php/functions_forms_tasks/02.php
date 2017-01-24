@@ -1,6 +1,3 @@
-<p>Создать форму с элементом textarea. При отправке формы скрипт должен выдавать
- ТОП3 длинных слов в тексте. Реализовать с помощью функции.</p>
-
 <form method="post" action="02.php">
 	<textarea name="text1" cols=50 rows=5></textarea>
 	<br><input type="submit"/>
