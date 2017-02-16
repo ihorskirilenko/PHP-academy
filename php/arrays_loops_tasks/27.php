@@ -8,9 +8,11 @@
 
 <?php
 echo "<b>Генератор случайных таблиц:</b>";
+
 $colors = array('red','yellow','blue','gray','maroon','brown','green','pink');
 $row = (int)$_POST['rows'];
 $cols = (int)$_POST['cols'];
+
 echo '<table>';
 for ($tr = 0; $tr < $row; $tr++) {
 	echo '<tr>';
