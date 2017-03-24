@@ -29,4 +29,4 @@ var scolor = '#be5406';
 
 var div = document.createElement('div');
 div.innerHTML = createChessDesk(fcolor, scolor, contents);
-document.body.appendChild(div);
+document.appendChild(div);
